@@ -98,43 +98,43 @@
 
       - `ARGUMENTS`
 
-            - In typescript we give type to the function  parameters to avoid any bugs i future.
-            - Function accepts only the values of type is assigned to it.
+       - In typescript we give type to the function  parameters to avoid any bugs i future.
+       - Function accepts only the values of type is assigned to it.
 
-            - whether there is one argument or multiple never wright them without -> ().
-            - arguments must be encapsulated all the time.
+       - whether there is one argument or multiple never wright them without -> ().
+       - arguments must be encapsulated all the time.
 
 
-            - We use the syntax below:
-                        ```ts
-                        let <function_name> : (arument_name:type) => {body};
+       - We use the syntax below:
+                  ```ts
+                  let <function_name> : (arument_name:type) => {body};
 
-                  `eg`
+            `eg`
 
-                   -     ```ts
-                        let sayHello = (hello :string)=>{
-                        console.log(hello);
-                        }
+             -     ```ts
+                  let sayHello = (hello :string)=>{
+                  console.log(hello);
+                  }
 
-                        sayHello("Hello typescript")
+                  sayHello("Hello typescript")
 
-      - RETURN TYPE
+      - `RETURN TYPE`
 
-            - As we are accepting some paramters in the function on we use the function for a specific purpose in this case our functions might return some values or not but what if we haven't delcared the return type of any function and in future any other develper tries to assign the returned value of a function which returns nothing,
-            - by default the return type of a function is `any` wheter function returns or not we have to explecitly mentioned the return type of the function.-
-            - whether it is `void` or anything else.
+       - As we are accepting some paramters in the function on we use the function for a specific purpose in this case our functions might return some values or not but what if we haven't delcared the return type of any function and in future any other develper tries to assign the returned value of a function which returns nothing,
+       - by default the return type of a function is `any` wheter function returns or not we have to explecitly mentioned the return type of the function.-
+       - whether it is `void` or anything else.
 
-            - For giving return type to function use  syntax below:
-                        ```ts
-                        let <function_name> : (arument_name:type):<return_type> => {body};
+       - For giving return type to function use  syntax below:
+                  ```ts
+                  let <function_name> : (arument_name:type):<return_type> => {body};
 
-                  `eg`
+            `eg`
 
-                        ```ts
-                        let addThem = (a :number,b:number):number=>{
-                        return a+b;
-                        }
+                  ```ts
+                  let addThem = (a :number,b:number):number=>{
+                  return a+b;
+                  }
 
-                        const sum = addThem(32,325);
-                        //Now if we do
-                        typeof sum // its number
+                  const sum = addThem(32,325);
+                  //Now if we do
+                  typeof sum // its number
