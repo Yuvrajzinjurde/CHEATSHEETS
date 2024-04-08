@@ -23,11 +23,11 @@
 
 - `eg`
 
-      - If you have an `add(a,b)` function in your javascript which takes to parameters and the values of thes paramenters is accepted from the HTML inputs.
+     - If you have an `add(a,b)` function in your javascript which takes to parameters and the values of thes paramenters is accepted from the HTML inputs.
 
-      - suppose some one enthers values `10` and `20` these values are treated as a string and it it will result in unexpected output  `1020`.
+     - suppose some one enthers values `10` and `20` these values are treated as a string and it it will result in unexpected output  `1020`.
 
-      - to get rid of that we can give the prefered types in typescript function as `add(a:number,b:number)` now this TS function won't accepts any other input than the numbers and  give the required output.
+     - to get rid of that we can give the prefered types in typescript function as `add(a:number,b:number)` now this TS function won't accepts any other input than the numbers and  give the required output.
 
 - `BASIC TYPES`
 
@@ -68,7 +68,7 @@
 
     - `OBJECTS`
 
-          - To attonate objects in Typescript use the syntax:
+      - To attonate objects in Typescript use the syntax:
 
                         ```ts
                         let <object name>: {
@@ -125,6 +125,7 @@
        - whether it is `void` or anything else.
 
        - For giving return type to function use  syntax below:
+                  
                   ```ts
                   let <function_name> : (arument_name:type):<return_type> => {body};
 
